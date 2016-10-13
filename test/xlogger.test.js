@@ -17,6 +17,6 @@ var xlogger = require('..');
 
 describe('test', function() {
   it('should be ok', function() {
-    xlogger.should.be.ok;
+    xlogger.should.be.ok();
   });
 });
