@@ -1,5 +1,4 @@
-xlogger
-====
+# xlogger
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -23,13 +22,7 @@ xlogger
 ## Installment
 
 ```bash
-$ npm i xlogger -g
-```
-
-## Quick Start
-
-```bash
-$ xlogger
+$ npm i xlogger --save
 ```
 
 ## License
