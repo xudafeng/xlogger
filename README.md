@@ -17,11 +17,11 @@
 [download-image]: https://img.shields.io/npm/dm/xlogger.svg?style=flat-square
 [download-url]: https://npmjs.org/package/xlogger
 
-> xlogger
+> Node.js simple logger
 
 ## Installment
 
-```bash
+```shell
 $ npm i xlogger --save
 ```
 

@@ -1,7 +1,7 @@
 {
   "name": "xlogger",
   "version": "1.0.5",
-  "description": "xlogger",
+  "description": "Node.js simple logger",
   "keywords": [
     "logger"
   ],
