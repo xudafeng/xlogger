@@ -18,16 +18,15 @@
     "xutil": "~1.0.0"
   },
   "devDependencies": {
-    "co-mocha": "*",
-    "istanbul": "^0.4.5",
+    "git-contributor": "1",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
+    "pre-commit": "1.1.1"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "echo test",
+    "lint": "jshint",
+    "contributor": "git-contributor"
   },
   "pre-commit": [
     "jshint"
