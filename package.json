@@ -6,6 +6,9 @@
     "logger"
   ],
   "main": "index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/xlogger.git"
@@ -15,23 +18,18 @@
     "xutil": "~1.0.0"
   },
   "devDependencies": {
-    "co-mocha": "*",
-    "istanbul": "^0.4.5",
+    "git-contributor": "1",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
+    "pre-commit": "1.1.1"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "echo test",
+    "lint": "jshint",
+    "contributor": "git-contributor"
   },
   "pre-commit": [
     "jshint"
   ],
-  "homepage": "https://github.com/xudafeng/xlogger",
-  "author": "xudafeng",
-  "email": "xudafeng@126.com",
-  "blog": "http://xdf.me",
   "license": "MIT"
 }
